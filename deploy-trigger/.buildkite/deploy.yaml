@@ -3,4 +3,4 @@ steps:
     label: ":ravi:"
     concurrency_group: "$BUILDKITE_PIPELINE_SLUG-deploy"
     concurrency: 1
-    branches: "master"
+    branches: "test"
