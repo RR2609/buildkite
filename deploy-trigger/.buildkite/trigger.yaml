@@ -2,7 +2,7 @@ steps:
   - command: echo 'Tests'
     label: ':hammer:'
   - wait
-  - trigger: dependent-trigger-example
+  - trigger: trigger-deploy
     label: ":ravi:"
     branches: "test"
     async: true
