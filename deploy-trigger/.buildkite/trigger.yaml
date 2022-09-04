@@ -4,7 +4,7 @@ steps:
   - wait
   - trigger: dependent-trigger-example
     label: ":ravi:"
-    branches: "master"
+    branches: "test"
     async: true
     build:
       commit: "$BUILDKITE_COMMIT"
