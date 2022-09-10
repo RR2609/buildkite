@@ -3,9 +3,12 @@ steps:
     command: | 
         echo "Hello!"
         echo "check Hey from line 2"
+        "exit -1"
   - wait: ~
     continue_on_failure: false
   - command: echo "Second command!"
+  
+
   - label: "Second build"
     command: echo "Did we really reaced here? :)"
 
