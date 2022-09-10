@@ -3,10 +3,11 @@ steps:
     command: | 
         echo "Hello!"
         echo "check Hey from line 2"
-  - wait
-
-steps:
+  - wait: ~
+    continue_on_failure: false
   - label: "Second build"
-  - command: echo "Did we really reached here? :)"
+    command: echo "Did we really reaced here? :)"
+
+
   
 
