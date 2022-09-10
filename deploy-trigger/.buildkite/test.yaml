@@ -3,3 +3,10 @@ steps:
     command: | 
         echo "Hello!"
         echo "check Hey from line 2"
+  - wait
+
+steps:
+  - label: "Second build"
+  - command: echo "Did we really reached here? :)"
+  
+
