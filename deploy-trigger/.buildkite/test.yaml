@@ -13,6 +13,7 @@ steps:
     command: echo "Did we really reaced here? :)"
   - label: "testing variable"
     command: |
+         echo pwd 
          chmod +x test.sh
          ./test.sh
 
