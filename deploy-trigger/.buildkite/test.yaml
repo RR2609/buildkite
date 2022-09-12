@@ -11,11 +11,9 @@ steps:
 
   - label: "Second build"
     command: echo "Did we really reaced here? :)"
-  - label: "testing variable"
-    command: |
-         echo $PWD 
-         chmod +x test.sh
-         ./test.sh
+  - trigger: trigger-deploy
+    branch : test 
+
 
 
   
