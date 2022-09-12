@@ -12,7 +12,7 @@ steps:
   - label: "Second build"
     command: echo "Did we really reaced here? :)"
   - trigger: trigger-deploy
-    branch : test 
+    branches : test 
 
 
 
