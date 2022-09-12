@@ -1,8 +1,6 @@
 steps:
   - label: "Example Test"
     command: | 
-        A = 4
-        echo $4
         echo "Hello!"
         echo "check Hey from line 2"
         
@@ -13,6 +11,10 @@ steps:
 
   - label: "Second build"
     command: echo "Did we really reaced here? :)"
+  - label: "testing variable"
+    command: |
+        - check = 1343
+        - echo $check
 
   
 
