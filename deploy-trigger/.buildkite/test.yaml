@@ -13,8 +13,8 @@ steps:
     command: echo "Did we really reaced here? :)"
   - label: "testing variable"
     command: |
-        - chmod +x test.sh
-        - ./test.sh
+         chmod +x test.sh
+         ./test.sh
 
 
   
