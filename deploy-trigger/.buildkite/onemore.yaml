@@ -2,4 +2,4 @@ steps:
   - label: "Example Test"
     command: | 
         echo "Hello!"
-        chmod +x .buildkite/test.sh && .buildkite/test.sh
+        chmod +x ./test.sh && ./test.sh
